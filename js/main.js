@@ -1,17 +1,17 @@
 $(document).ready(function(){
 	
-	//平滑过渡
+	//骞虫粦杩囨浮
 	smoothMove();
  
 	$(window).scroll(function(){
 
-	//高亮显示导航
+	//楂樹寒鏄剧ず瀵艰埅
 		heightLight();
 
-    //上滑显示导航
+    //涓婃粦鏄剧ず瀵艰埅
         toggleNav();
 
-    //技能进度条
+    //鎶�鑳借繘搴︽潯
 		fullBar();	
 
 	});
@@ -41,7 +41,7 @@ function smoothMove(){
 function toggleNav(){
 	var afscroll=$(window).scrollTop();
     var res=afscroll-bescroll;
-    var mH=$(window).scrollTop()-h;
+    var mH=$(window).scrollTop();
 
     if(mH<0){
         $('.nav').css('background','transparent');
