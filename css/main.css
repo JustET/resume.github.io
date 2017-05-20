@@ -53,11 +53,14 @@ body{font-family: "微软雅黑";}
 	height:100vh;
 	width:100%;
 	overflow: hidden;
-	background-color: #333;
-	background: url(../images/banner6.jpg)  center center no-repeat;
+	background-color: #2C5298;
+	/*background: url(../images/banner6.jpg)  center center no-repeat;*/
 	background-size: 1600px auto;
 	background-attachment: fixed;
 }
+
+
+
 .part_header .header_title{ 
 	position: absolute;
 	top:50%;
